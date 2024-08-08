@@ -39,19 +39,19 @@ import Privacy from "../../components/Privacy";
 
 export const headerIntroData = {
   title: {
-    de: "Hi, ich bin Alpay",
-    en: "Hi, I'm Alpay",
+    de: "Olá, eu sou o Cícero",
+    en: "Hi, I'm Cicero",
   },
   subtitle: "Fullstack Developer ",
   description: {
-    de: "Ich bin Alpay, ein Fullstack-Entwickler mit dem Ziel, meine Karriere voranzutreiben und an inspirierenden Projekten teilzunehmen. Hier präsentiere ich meine Arbeiten und meine Leidenschaft für die Webentwicklung. Lassen Sie uns gemeinsam digitale Lösungen gestalten und die Zukunft formen!",
-    en: "I'm Alpay, a fullstack developer with the goal of advancing my career and participating in inspiring projects. Here I present my work and my passion for web development. Let's shape digital solutions together and shape the future!",
+    de: "Sou Cicero, um desenvolvedor fullstack com o objetivo de progredir na carreira e participar de projetos inspiradores. Aqui apresento meu trabalho e minha paixão por desenvolvimento web. Vamos moldar soluções digitais juntos e moldar o futuro!!",
+    en: "I'm Cicero, a fullstack developer with the goal of advancing my career and participating in inspiring projects. Here I present my work and my passion for web development. Let's shape digital solutions together and shape the future!",
   },
   buttons: [
     {
       name: "Contact",
       label: {
-        de: "Kontaktiere mich",
+        de: "Contate-me",
         en: "Contact me",
       },
       icon: FiMail,
@@ -60,7 +60,7 @@ export const headerIntroData = {
     {
       name: "Projects",
       label: {
-        de: "Meine Projekte",
+        de: "Meus projetos",
         en: "My Projects",
       },
       icon: FiGithub,
@@ -74,7 +74,7 @@ export const projectsData = [
   {
     title: "Tasty App",
     description:
-      "Eine Rezepte App, die wir als Team mit React und der MealDB API gebaut haben. Ich war der Front-End Entwickler und habe Features wie Voice Search oder Print to PDF programmiert. Das Design wurde mit Figma erstellt. Die Website ist responsive und mobile-optimiert.",
+      "Um aplicativo de receitas que construímos em equipe com React e a API MealDB. Fui o desenvolvedor front-end e programei recursos como pesquisa por voz ou impressão em PDF. O design foi criado com Figma. O site é responsivo e otimizado para dispositivos móveis.",
     description_EN:
       "A recipe app that we built as a team with React and the MealDB API. I was the front-end developer and programmed features like voice search or print to PDF. The design was created with Figma. The website is responsive and mobile-optimized.",
     technologies: [
@@ -90,7 +90,7 @@ export const projectsData = [
     ],
     image: tastyMockup,
     deploymenturl: "https://delightful-cheesecake-9b19f0.netlify.app/",
-    githuburl: "https://github.com/AlpayC/Frontend_Abschlussprojekt_Tasty",
+    githuburl: "https://github.com/magicCicero/Tasty",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -136,7 +136,7 @@ export const projectsData = [
   {
     title: "Furniture Organizer",
     description:
-      "Eine Möbel-Organizer App, die wir als Duo-Team mit React, MongoDB, Express und Node.js programmiert haben. Als Gitmaster habe ich die Verknüpfung des Frontends mit dem Backend und die Datenbankmodellierung übernommen. Die App ist responsive und mobile-optimiert.",
+      "Um aplicativo organizador de móveis que programamos em dupla com React, MongoDB, Express e Node.js. Como gitmaster, assumi a conexão do frontend com o backend e a modelagem do banco de dados. O aplicativo é responsivo e otimizado para dispositivos móveis.",
     description_EN:
       "A furniture organizer app that we programmed as a duo team with React, MongoDB, Express and Node.js. As a gitmaster, I took over the connection of the frontend to the backend and the database modeling. The app is responsive and mobile-optimized.",
     technologies: [
@@ -155,7 +155,7 @@ export const projectsData = [
     ],
     image: instorMockup,
     deploymenturl: "https://mern-haushaltsbuch.onrender.com/",
-    githuburl: "https://github.com/AlpayC/Furniture_MERN",
+    githuburl: "https://github.com/magicCicero/Furniture_MERN",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -169,7 +169,7 @@ export const projectsData = [
 
 export const liveTickerData = {
   content: {
-    de: "Weitere Projekte auf Github",
+    de: "Mais projetos no Github",
     en: "More Projects on Github",
   },
 } as const;
@@ -297,75 +297,75 @@ export const skillsDataCMS = [
 ] as const;
 
 export const navLinks = [
-  { de: "Home", en: "Home", hash: "#home", icon: GoHome },
-  { de: "Skills", en: "Skills", hash: "#skills", icon: GoStack },
-  { de: "Projekte", en: "Projects", hash: "#projects", icon: GoProject },
-  { de: "Über mich", en: "About me", hash: "#about-me", icon: GoPerson },
-  { de: "Kontakt", en: "Contact", hash: "#contact", icon: GoMail },
+  { de: "Lar", en: "Home", hash: "#home", icon: GoHome },
+  { de: "Habilidades", en: "Skills", hash: "#skills", icon: GoStack },
+  { de: "Projetos", en: "Projects", hash: "#projects", icon: GoProject },
+  { de: "Sobre mim", en: "About me", hash: "#about-me", icon: GoPerson },
+  { de: "Contato", en: "Contact", hash: "#contact", icon: GoMail },
 ] as const;
 
 export const FooterLinks = [
-  { de: "Impressum", en: "Imprint", hash: "#imprint", data: <Imprint /> },
-  { de: "Datenschutz", en: "Privacy", hash: "#privacy", data: <Privacy /> },
+  { de: "Imprimir", en: "Imprint", hash: "#imprint", data: <Imprint /> },
+  { de: "Privacidade", en: "Privacy", hash: "#privacy", data: <Privacy /> },
 ] as const;
 
 export const sideBarRightMail = {
-  link: "mailto:myemail@com",
-  text: "myemail@com",
+  link: "mailto:cicerooantonio20@gmail.com",
+  text: "cicerooantonio20@gmail.com",
 } as const;
 
 export const sideBarLeftSocials = [
   {
-    link: "https://www.linkedin.com/in/alpay/",
+    link: "https://www.linkedin.com/in/cicero-antonio-015326320/",
     icon: FiLinkedin,
     altimgname: "linkedin",
   },
   {
-    link: "https://github.com/AlpayC",
+    link: "https://github.com/magicCicero",
     icon: FiGithub,
     altimgname: "github",
   },
   {
-    link: "mailto:myemail@com",
+    link: "mailto:cicerooantonio20@gmail.com",
     icon: FiMail,
-    altimgname: "mail",
+    altimgname: "gmail",
   },
 ] as const;
 
 export const quotesData = [
   {
-    de: '"Es ist überhaupt nicht wichtig, es beim ersten Mal richtig zu machen. Es ist entscheidend, es beim letzten Mal richtig zu machen."',
+    de: '"Não é nada importante acertar na primeira vez. É de vital importância acertar da última vez."',
     en: `"It's not at all important to get it right the first time. It's vitally important to get it right the last time."`,
     author: "Andrew Hunt",
   },
   {
-    de: '"Das Web ist wie eine Leinwand und der Code ist die Farbe. Erschaffe dein Meisterwerk."',
+    de: '"A web é como uma tela e o código é a pintura. Crie sua obra-prima."',
     en: `"The web is like a canvas, and code is the paint. Create your masterpiece."`,
   },
 ] as const;
 
 export const aboutMeData = {
-  title: "Über mich",
+  title: "Sobre mim",
   title_EN: "About me",
-  description: "Ein paar Codeschnippsel über mich",
+  description: "Alguns trechos de código sobre mim",
   description_EN: "A few code snippets about me",
   paragraphs_DE: [
     {
-      title: "Die Schaltkreise meines Herzens",
+      title: "Os circuitos do meu coração",
       description:
-        "Wenn ich nicht in der digitalen Welt unterwegs bin, durchstreife ich die faszinierende Welt der Technik und Hardware. Schaltkreise und Lötstellen sind für mich wie Puzzleteile eines aufregenden Abenteuers.",
+        "Quando não estou navegando no mundo digital, exploro o fascinante reino da tecnologia e do hardware. Circuitos e juntas de solda são para mim como peças de um quebra-cabeça em uma aventura emocionante.",
       icon: hardwareicon,
     },
     {
-      title: "Auf der Überholspur des Lebens",
+      title: "Na via rápida da vida",
       description:
-        "Neben dem Coden befinde ich mich gerne auf der Überholspur – im wahrsten Sinne des Wortes. Autos sind meine Leidenschaft, und ich genieße es, mit PS-starken Maschinen auf unbekannten Straßen unterwegs zu sein.",
+        "Além de programar, gosto de estar na via rápida - no verdadeiro sentido da palavra. Os carros são minha paixão e gosto de estar em estradas desconhecidas com máquinas potentes.",
       icon: caricon,
     },
     {
-      title: "Entdeckungsfreude als Lebensmotto",
+      title: "A alegria da descoberta como lema de vida",
       description:
-        "Meine Reise als Webentwickler ist nur ein Teil meines Lebenswegs. Ich lebe nach dem Motto, dass das Abenteuer erst beginnt, wenn man das Bekannte hinter sich lässt. Das Entdecken neuer Orte ist meine Form der kreativen Inspiration.",
+        "Minha jornada como desenvolvedor web é apenas uma parte da minha trajetória de vida. Vivo pelo lema de que a aventura só começa quando você deixa o familiar para trás. Descobrir novos lugares e culturas é minha forma de inspiração criativa.",
       icon: travelicon,
     },
   ],
@@ -393,23 +393,23 @@ export const aboutMeData = {
 
 export const contactData = {
   title: {
-    de: "Kontakt",
+    de: "Contato",
     en: "Contact",
   },
   description: {
-    de: "Schreib mir eine Nachricht und ich melde mich bei dir.",
+    de: "Escreva-me uma mensagem e entrarei em contato com você.",
     en: "Write me a message and I will get back to you.",
   },
   inputfields: [
     {
       name: "name",
       placeholder: {
-        de: "Dein Name",
+        de: "Seu nome",
         en: "Your Name",
       },
       type: "text",
       validation: {
-        de: "Bitte gebe deinen Namen ein",
+        de: "Por favor preencha seu nome",
         en: "Please fill in your name",
       },
       pattern: "{2}",
@@ -417,12 +417,12 @@ export const contactData = {
     {
       name: "email",
       placeholder: {
-        de: "Deine E-Mail Adresse",
+        de: "Seu email",
         en: "Your E-Mail",
       },
       type: "email",
       validation: {
-        de: "Bitte gebe deine Email ein",
+        de: "Por favor preencha seu e-mail",
         en: "Please fill in your email",
       },
       pattern: "[@]{4}",
@@ -430,12 +430,12 @@ export const contactData = {
     {
       name: "subject",
       placeholder: {
-        de: "Deine Betreff",
+        de: "Seu assunto",
         en: "Your Subject",
       },
       type: "text",
       validation: {
-        de: "Bitte gebe einen Betreff ein",
+        de: "Por favor preencha seu assunto",
         en: "Please fill in your subject",
       },
       pattern: "{10}",
@@ -443,20 +443,20 @@ export const contactData = {
   ],
   textarea: {
     placeholder: {
-      de: "Deine Nachricht",
+      de: "Sua mensagem",
       en: "Your Message",
     },
     name: "message",
     rows: 10,
     validation: {
-      de: "Bitte gebe deine Nachricht ein",
+      de: "Por favor preencha sua mensagem",
       en: "Please fill in your message",
     },
     pattern: "{10}",
   },
   button: {
     value: {
-      de: "Absenden",
+      de: "Enviar",
       en: "Send",
     },
   },
@@ -469,11 +469,11 @@ export const contactData = {
   },
   privacyOptIn: {
     checkbox: {
-      de: "Ich stimme zu, dass Alpay meine personenbezogenen Daten (Name und E-Mail-Adresse) verwenden darf, um mit mir Kontakt aufzunehmen.",
-      en: "I agree that Alpay may use my personal data (name and e-mail address) to contact me.",
+      de: "Concordo que a Cícero pode usar meus dados pessoais (nome e endereço de e-mail) para entrar em contato comigo.",
+      en: "I agree that Cicero may use my personal data (name and e-mail address) to contact me.",
     },
     description: {
-      de: "Durch Übermittlung dieser Anfrage bestätigen Sie, dass Sie die Datenschutzerklärung gelesen haben",
+      de: "Ao enviar esta solicitação, você reconhece que leu a Política de Privacidade",
       en: "By submitting this request, you acknowledge that you have read the Private Policy",
     },
   },
@@ -481,26 +481,26 @@ export const contactData = {
 
 export const toastMessages = {
   loadingProject: {
-    de: "🦄 Die Live Demo wird gleich geöffnet. Server werden gestartet...",
+    de: "🦄 A demonstração ao vivo será aberta em breve. Iniciando servidores...",
     en: "🦄 The live demo will open shortly. Starting servers...",
   },
   successEmailSent: {
-    de: "🦄 Vielen Dank für deine Email. Ich werde mich schnellstmöglich bei dir melden",
+    de: "🦄 Obrigado pelo seu e-mail. Entrarei em contato com você o mais breve possível",
     en: "🦄 Thank you for your email. I will get back to you as soon as possible",
   },
   failedEmailSent: {
-    de: "🦄 Leider hat der Versand deiner Email nicht geklappt. Bitte versuche es später noch einmal",
+    de: "🦄 Infelizmente o envio do seu e-mail não funcionou. Por favor, tente novamente mais tarde",
     en: "🦄 Unfortunately the sending of your email did not work. Please try again later",
   },
   failedValidationName: {
-    de: "Bitte gebe deinen Namen ein",
+    de: "Por favor preencha seu nome",
     en: "Please fill in your name",
   },
 } as const;
 
 export const buttonLabels = {
   language: {
-    de: "DE",
+    de: "Po",
     en: "EN",
   },
 } as const;
