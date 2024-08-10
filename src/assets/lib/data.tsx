@@ -40,9 +40,9 @@ import Privacy from "../../components/Privacy";
 export const headerIntroData = {
   title: {
     de: "Olá, eu sou o Cícero",
-    en: "Hi, I'm Cicero",
+    en: "Hi, I'm Cicero Antonio",
   },
-  subtitle: "Fullstack Developer ",
+  subtitle: "Magic Fullstack Developer ",
   description: {
     de: "Sou Cicero, um desenvolvedor fullstack com o objetivo de progredir na carreira e participar de projetos inspiradores. Aqui apresento meu trabalho e minha paixão por desenvolvimento web. Vamos moldar soluções digitais juntos e moldar o futuro!!",
     en: "I'm Cicero, a fullstack developer with the goal of advancing my career and participating in inspiring projects. Here I present my work and my passion for web development. Let's shape digital solutions together and shape the future!",
@@ -397,8 +397,8 @@ export const contactData = {
     en: "Contact",
   },
   description: {
-    de: "Escreva-me uma mensagem e entrarei em contato com você.",
-    en: "Write me a message and I will get back to you.",
+    de: "Deixe-me uma mensagem e entrarei em contato com você em breve.",
+    en: "Drop me a message, and I'll reach out to you soon.",
   },
   inputfields: [
     {

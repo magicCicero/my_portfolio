@@ -125,13 +125,16 @@ import  { useState } from "react";
 // 🌈 Spreading Stardust: 
 // Crafting Cosmic Email 🌌
 
-const [sender, setSender] = "${name}${
+const [sender, setSender] = 
+      "${name}${
     lastUpdatedField === "name" ? (cursorBlink ? "|" : " ") : ""
   }🚀";
-const [recipient, setRecipient] = "${email}${
+const [recipient, setRecipient] = 
+      "${email}${
     lastUpdatedField === "email" ? (cursorBlink ? "|" : " ") : ""
   }📧";
-const [subject, setSubject] = \n"${subject}${
+const [subject, setSubject] = 
+      "${subject}${
     lastUpdatedField === "subject" ? (cursorBlink ? "|" : " ") : ""
   }✨";
 const [message, setMessage] = 

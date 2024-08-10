@@ -13,9 +13,6 @@ const SiteBarLeft: React.FC = () => {
           {sideBarRightMail.text}
         </Link>
       </div>
-      <div className="flex items-center justify-center flex-col h-[70%] ">
-        <div className=" w-[0.25rem] h-[100%] bg-[--lightblue]"></div>
-      </div>
     </div>
   );
 };
