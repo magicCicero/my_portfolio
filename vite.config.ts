@@ -6,7 +6,6 @@ import dotenv from "dotenv";
 dotenv.config();
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/my_portfolio/',
   plugins: [react()],
   build: {
     // ...
