@@ -26,6 +26,7 @@ import webflowicon from "../../assets/icons/webflowicon.svg";
 import tastyMockup from "../../assets/img/tasty_mockup.webp";
 import instorMockup from "../../assets/img/instor_mockup.webp";
 import itchyscreen from "../../assets/img/itchyscreen.png";
+import livwatch from "../../assets/img/livwatch.png";
 import silentmoonMockup from "../../assets/img/silentmoon_mockup.webp";
 import profilepicture from "../img/me2.webp";
 import caricon from "../../assets/icons/car-icon.svg";
@@ -190,6 +191,36 @@ export const projectsData = [
     deploymenturl: "https://play.google.com/store/apps/details?id=org.scratchclient4.itchy",
     githuburl: "https://github.com/magicCicero/itchy-ionic",
     githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#E3964A",
+    },
+  },
+  {
+    title: "Livwatch",
+    description:
+      "Livwatch fornece uma landing page incrível, que é implantada por mim do zero: do design à implantação - todo o processo de desenvolvimento envolveu minhas habilidades.",
+    description_EN:
+      "Livwatch provides awesome landing page, which is deployed by me from scratch: from design to deploy - all development process involved my skills.",
+    technologies: [
+      { name: "Html", icon: htmlicon },
+      { name: "CSS", icon: cssicon },
+      { name: "JavaScript", icon: javascripticon },
+      { name: "React", icon: reacticon },
+      { name: "JWT & Bcrypt", icon: jwticon },
+      { name: "Axios", icon: axiosicon },
+      { name: "MongoDB", icon: mongodbicon },
+      { name: "Express", icon: expressiconwhite },
+      { name: "Node.js", icon: nodejsicon },
+      { name: "Figma", icon: figmaicon },
+      { name: "Render", icon: rendericon },
+      { name: "Trello", icon: trelloicon },
+    ],
+    image: livwatch,
+    deploymenturl: "https://www.livwatches.com/",
     deploymenticon: FiLink,
     colors: {
       main: "main-btn",
