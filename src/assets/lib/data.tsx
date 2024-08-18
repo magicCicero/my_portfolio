@@ -25,6 +25,7 @@ import shopifyicon from "../../assets/icons/shopifyicon.svg";
 import webflowicon from "../../assets/icons/webflowicon.svg";
 import tastyMockup from "../../assets/img/tasty_mockup.webp";
 import instorMockup from "../../assets/img/instor_mockup.webp";
+import itchyscreen from "../../assets/img/itchyscreen.png";
 import silentmoonMockup from "../../assets/img/silentmoon_mockup.webp";
 import profilepicture from "../img/me2.webp";
 import caricon from "../../assets/icons/car-icon.svg";
@@ -156,6 +157,38 @@ export const projectsData = [
     image: instorMockup,
     deploymenturl: "https://mern-haushaltsbuch.onrender.com/",
     githuburl: "https://github.com/magicCicero/Furniture_MERN",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#E3964A",
+    },
+  },
+  {
+    title: "itchy",
+    description:
+      "Um aplicativo coceira que programamos em dupla com React, MongoDB, Express e Node.js. Como gitmaster, assumi a conexão do frontend com o backend e a modelagem do banco de dados. O aplicativo é responsivo e otimizado para dispositivos móveis.",
+    description_EN:
+      "An itchy app that we programmed as a duo team with React, MongoDB, Express and Node.js. As a gitmaster, I took over the connection of the frontend to the backend and the database modeling. The app is responsive and mobile-optimized.",
+    technologies: [
+      { name: "Html", icon: htmlicon },
+      { name: "CSS", icon: cssicon },
+      { name: "JavaScript", icon: javascripticon },
+      { name: "React", icon: reacticon },
+      { name: "JWT & Bcrypt", icon: jwticon },
+      { name: "Axios", icon: axiosicon },
+      { name: "MongoDB", icon: mongodbicon },
+      { name: "Express", icon: expressiconwhite },
+      { name: "Node.js", icon: nodejsicon },
+      { name: "Figma", icon: figmaicon },
+      { name: "Render", icon: rendericon },
+      { name: "Trello", icon: trelloicon },
+    ],
+    image: itchyscreen,
+    deploymenturl: "https://play.google.com/store/apps/details?id=org.scratchclient4.itchy",
+    githuburl: "https://github.com/magicCicero/itchy-ionic",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
